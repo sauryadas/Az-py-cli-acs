@@ -26,7 +26,7 @@ az acs -h
 
 ### Create an Azure Container Service Cluster
 
-* ACS usage in the CLI
+*ACS usage in the CLI
 ```
 az acs -h
 ```
@@ -56,7 +56,7 @@ az acs show -g acsrg1 -n acs-cluster --output list
 
 
 ### Scale the ACS cluster
-* Both scaling in and scaling out are allowed. The paramater new-agent-count is the new number of agents in the ACS cluster
+*Both scaling in and scaling out are allowed. The paramater new-agent-count is the new number of agents in the ACS cluster
 ```
 az acs scale -g acsrg1 -n acs-cluster --new-agent-count 4
 ```
