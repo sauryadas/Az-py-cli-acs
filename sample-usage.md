@@ -42,6 +42,8 @@ az acs create -n acs-cluster -g acsrg1 -d applink789
 ```
 az acs create -n acs-cluster -g acsrg1 -d applink789 --generate-ssh-keys
 ```
+*Please ensure that the dns-prefix (-d switch) is unique. If you get an error, please try again with a unique string.*
+
 After you type the above command, wait for about 10 minutes for the cluster to be created.
 ![Image ACS create](https://github.com/sauryadas/Az-py-cli-acs/blob/master/media/cluster-create.png)
 
