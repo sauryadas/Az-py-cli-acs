@@ -47,8 +47,14 @@ az acs create -n acs-cluster -g acsrg1 -d applink789 --generate-ssh-keys
 After you type the above command, wait for about 10 minutes for the cluster to be created.
 ![Image ACS create](https://github.com/sauryadas/Az-py-cli-acs/blob/master/media/cluster-create.png)
 
+## List ACS clusters 
 
-## List ACS clusters in a resource group
+### Under a subscription
+```
+az acs list --output table
+```
+
+### In a specific resource group
 ```
 az acs list -g acsrg1 --output table
 ```
